@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    background-color: rgb(1, 73, 73);
+    color: white;
+    /* position: sticky; */
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 10%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo p{
+    font-weight: 10;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    padding: 2rem 8rem 2rem 2rem;
+}
+
+.items a{
+    margin-right: 3rem;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in;
+}
+
+.items a:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(hero.png) center/cover;
+    height: 100vh;
+    display: flex;
+    /* margin-top: 80px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary{
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.btn-secondary{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover{
+    background-color: white;
+    color: #333;
+    transform: translateY(-2px);
+
+}
+
