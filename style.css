@@ -191,13 +191,13 @@ hr{
     color: rgba(0,0,0,0.5);
 }
 
-.grid{
+.about-grid{
     max-width: 80%;
     margin: 2rem auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    
+    gap: 3rem;
+    align-items: center;
 }
 
 .about-h1{
@@ -207,12 +207,12 @@ hr{
     font-size: 2.5rem;
     align-content: center;
 }
-
+/* 
 .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 
 .left h5{
