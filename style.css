@@ -215,7 +215,7 @@ hr{
 } */
 
 
-.left h5{
+.about-left h5{
     text-align: left;
     margin-bottom: 1rem;
     margin-left: 0.9rem;
@@ -224,19 +224,19 @@ hr{
     color: rgb(10, 10, 111);
 }
 
-.left p{
+.about-left p{
     text-align: left;
     margin: 0 0 0.8rem 0.8rem ;
     font-size: 1.2rem;
     color: rgba(0,0,0,0.5);
 }
 
-.right img{
+.about-right img{
     border-radius: 10px;
     box-shadow: 0px 2px 5px #333;
     transition: all 0.3s ease;
 }
 
-.right img:hover{
+.about-right img:hover{
     transform: translateY(-3px);
 }
