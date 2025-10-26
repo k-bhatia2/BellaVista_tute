@@ -201,7 +201,7 @@ hr{
 }
 
 .about-h1{
-    margin: 1rem;
+    margin: 2rem;
     text-align: center;
     color: rgb(10, 10, 111);
     font-size: 2.5rem;
@@ -239,4 +239,77 @@ hr{
 
 .about-right img:hover{
     transform: translateY(-3px);
+}
+
+.contact{
+    padding: 5rem 0;
+    /* margin: 5rem; */
+    background-color: #f8f9fa;
+}
+
+.contact-grid{
+    padding: 3rem;
+    max-width: 80%;
+    margin: 2rem auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    /* align-items: center; */
+}
+
+.contact-left h2{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 0.9rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(10, 10, 111);
+}
+
+.contact-left h3{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 0.9rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(10, 10, 111);
+}
+
+.contact-left p{
+    text-align: left;
+    margin: 0 0 0.8rem 0.8rem ;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+}
+
+.contact-right h2{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 0.9rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(10, 10, 111);
+
+}
+
+.form-group{
+    margin-bottom: 1.5rem;
+}
+
+.form-group label{
+display: block;
+margin-bottom: 0.5rem;
+font-weight: bold;
+color: rgb(10, 10, 111);
+}
+
+
+.form-group input
+{
+width: 100%;
+padding:0.75rem;
+border: 2px solid #ddd;
+border-radius: 5px;
+font-size: 1rem;
+transition: border-color 0.3s ease;
 }
