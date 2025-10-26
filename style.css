@@ -157,7 +157,7 @@ hr{
 }
 
 .menu-cards:hover{
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 
 .menu-cards-title{
@@ -189,4 +189,54 @@ hr{
     margin: 0 0 0.8rem 0.8rem ;
     font-size: 0.9rem;
     color: rgba(0,0,0,0.5);
+}
+
+.grid{
+    max-width: 80%;
+    margin: 2rem auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.about-h1{
+    margin: 1rem;
+    text-align: center;
+    color: rgb(10, 10, 111);
+    font-size: 2.5rem;
+    align-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.left h5{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 0.9rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(10, 10, 111);
+}
+
+.left p{
+    text-align: left;
+    margin: 0 0 0.8rem 0.8rem ;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.5);
+}
+
+.right img{
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #333;
+    transition: all 0.3s ease;
+}
+
+.right img:hover{
+    transform: translateY(-3px);
 }
