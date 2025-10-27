@@ -1,0 +1,29 @@
+{
+  "name": "nakshatra-fitness",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@8.9.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:mobile": "pnpm --filter mobile dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "clean": "turbo run clean",
+    "prepare": "husky install",
+    "prisma:generate": "pnpm --filter api prisma generate",
+    "prisma:migrate": "pnpm --filter api prisma migrate deploy"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.15"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,md}": "prettier --write"
+  }
+}
