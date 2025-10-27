@@ -293,6 +293,80 @@ hr{
     transition: border-color 0.3s ease;
 }
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 5rem 5rem 1rem 5rem;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 5rem 2rem 1rem 2rem;
+    justify-content: center;
+}
+
+.footer-1 h2{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.footer-1 p{
+    color: white;
+}
+
+/* .footer-2{
+    display:;
+} */
+
+.footer-2 h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-2 ul{
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.footer-2 li{
+    padding-bottom: 1rem;
+}
+
+.footer-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-3 h2{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-3 p{
+    color: white;
+}
+
+.footer-4 h2{
+    color: white;
+    font-size: 1rem;
+    padding-bottom:1rem;
+}
+
+.footer-4 button{
+    padding: 1rem;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.footer-foot p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
 @media(max-width: 1024px){
     .hero-content h2{font-size: 2.5rem;}
     .about-grid, .contact-grid{grid-template-columns: 1fr;}
